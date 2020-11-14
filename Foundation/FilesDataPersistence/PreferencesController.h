@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PreferencesController.h
 //  Foundation
 //
 //  Created by tigerfly on 2020/11/14.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface PreferencesController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

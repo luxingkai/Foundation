@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  FileSystemController.h
 //  Foundation
 //
 //  Created by tigerfly on 2020/11/14.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface FileSystemController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
