@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11479CCE256D367200AF877E /* Numbers_Data_BasicValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CCD256D367200AF877E /* Numbers_Data_BasicValues.m */; };
+		11479CD1256D368200AF877E /* Strings_Text.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CD0256D368200AF877E /* Strings_Text.m */; };
+		11479CD4256D369100AF877E /* Collections.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CD3256D369100AF877E /* Collections.m */; };
+		11479CD7256D36A500AF877E /* Dates_Times.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CD6256D36A500AF877E /* Dates_Times.m */; };
+		11479CDA256D397300AF877E /* Units_Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CD9256D397300AF877E /* Units_Measurement.m */; };
+		11479CDD256D39A900AF877E /* DataFormatting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CDC256D39A900AF877E /* DataFormatting.m */; };
+		11479CE0256D39C800AF877E /* Filters_Sorting.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CDF256D39C800AF877E /* Filters_Sorting.m */; };
+		11479CE3256D39F600AF877E /* TaskManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CE2256D39F600AF877E /* TaskManagement.m */; };
+		11479CE6256D3A1F00AF877E /* Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CE5256D3A1F00AF877E /* Resources.m */; };
+		11479CE9256D3A2E00AF877E /* Notifications.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CE8256D3A2E00AF877E /* Notifications.m */; };
+		11479CEC256D3A6400AF877E /* Errors_Exceptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CEB256D3A6400AF877E /* Errors_Exceptions.m */; };
+		11479CEF256D3A7300AF877E /* ScriptingSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CEE256D3A7300AF877E /* ScriptingSupport.m */; };
+		11479CF2256D3B3400AF877E /* URLLoadingSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CF1256D3B3400AF877E /* URLLoadingSystem.m */; };
+		11479CF5256D3B8900AF877E /* ObjectRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CF4256D3B8900AF877E /* ObjectRuntime.m */; };
+		11479CF8256D3B9D00AF877E /* Processes_Threads.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CF7256D3B9D00AF877E /* Processes_Threads.m */; };
+		11479CFB256D3BB200AF877E /* Streams_Sockets_Ports.m in Sources */ = {isa = PBXBuildFile; fileRef = 11479CFA256D3BB200AF877E /* Streams_Sockets_Ports.m */; };
 		1162AB52255F896600D6D099 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162AB51255F896600D6D099 /* AppDelegate.m */; };
 		1162AB5B255F896600D6D099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1162AB59255F896600D6D099 /* Main.storyboard */; };
 		1162AB5D255F896700D6D099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1162AB5C255F896700D6D099 /* Assets.xcassets */; };
@@ -37,6 +53,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11479CCC256D367200AF877E /* Numbers_Data_BasicValues.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Numbers_Data_BasicValues.h; sourceTree = "<group>"; };
+		11479CCD256D367200AF877E /* Numbers_Data_BasicValues.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Numbers_Data_BasicValues.m; sourceTree = "<group>"; };
+		11479CCF256D368200AF877E /* Strings_Text.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Strings_Text.h; sourceTree = "<group>"; };
+		11479CD0256D368200AF877E /* Strings_Text.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Strings_Text.m; sourceTree = "<group>"; };
+		11479CD2256D369100AF877E /* Collections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Collections.h; sourceTree = "<group>"; };
+		11479CD3256D369100AF877E /* Collections.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Collections.m; sourceTree = "<group>"; };
+		11479CD5256D36A500AF877E /* Dates_Times.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dates_Times.h; sourceTree = "<group>"; };
+		11479CD6256D36A500AF877E /* Dates_Times.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dates_Times.m; sourceTree = "<group>"; };
+		11479CD8256D397300AF877E /* Units_Measurement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Units_Measurement.h; sourceTree = "<group>"; };
+		11479CD9256D397300AF877E /* Units_Measurement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Units_Measurement.m; sourceTree = "<group>"; };
+		11479CDB256D39A900AF877E /* DataFormatting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataFormatting.h; sourceTree = "<group>"; };
+		11479CDC256D39A900AF877E /* DataFormatting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataFormatting.m; sourceTree = "<group>"; };
+		11479CDE256D39C800AF877E /* Filters_Sorting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Filters_Sorting.h; sourceTree = "<group>"; };
+		11479CDF256D39C800AF877E /* Filters_Sorting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Filters_Sorting.m; sourceTree = "<group>"; };
+		11479CE1256D39F600AF877E /* TaskManagement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskManagement.h; sourceTree = "<group>"; };
+		11479CE2256D39F600AF877E /* TaskManagement.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskManagement.m; sourceTree = "<group>"; };
+		11479CE4256D3A1F00AF877E /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resources.h; sourceTree = "<group>"; };
+		11479CE5256D3A1F00AF877E /* Resources.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resources.m; sourceTree = "<group>"; };
+		11479CE7256D3A2E00AF877E /* Notifications.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Notifications.h; sourceTree = "<group>"; };
+		11479CE8256D3A2E00AF877E /* Notifications.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Notifications.m; sourceTree = "<group>"; };
+		11479CEA256D3A6400AF877E /* Errors_Exceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Errors_Exceptions.h; sourceTree = "<group>"; };
+		11479CEB256D3A6400AF877E /* Errors_Exceptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Errors_Exceptions.m; sourceTree = "<group>"; };
+		11479CED256D3A7300AF877E /* ScriptingSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScriptingSupport.h; sourceTree = "<group>"; };
+		11479CEE256D3A7300AF877E /* ScriptingSupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScriptingSupport.m; sourceTree = "<group>"; };
+		11479CF0256D3B3400AF877E /* URLLoadingSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLLoadingSystem.h; sourceTree = "<group>"; };
+		11479CF1256D3B3400AF877E /* URLLoadingSystem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URLLoadingSystem.m; sourceTree = "<group>"; };
+		11479CF3256D3B8900AF877E /* ObjectRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectRuntime.h; sourceTree = "<group>"; };
+		11479CF4256D3B8900AF877E /* ObjectRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectRuntime.m; sourceTree = "<group>"; };
+		11479CF6256D3B9D00AF877E /* Processes_Threads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Processes_Threads.h; sourceTree = "<group>"; };
+		11479CF7256D3B9D00AF877E /* Processes_Threads.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Processes_Threads.m; sourceTree = "<group>"; };
+		11479CF9256D3BB200AF877E /* Streams_Sockets_Ports.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Streams_Sockets_Ports.h; sourceTree = "<group>"; };
+		11479CFA256D3BB200AF877E /* Streams_Sockets_Ports.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Streams_Sockets_Ports.m; sourceTree = "<group>"; };
 		1162AB4D255F896600D6D099 /* Foundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1162AB50255F896600D6D099 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1162AB51255F896600D6D099 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -144,6 +192,20 @@
 		1162AB85255F89EC00D6D099 /* Fundamentals */ = {
 			isa = PBXGroup;
 			children = (
+				11479CCC256D367200AF877E /* Numbers_Data_BasicValues.h */,
+				11479CCD256D367200AF877E /* Numbers_Data_BasicValues.m */,
+				11479CCF256D368200AF877E /* Strings_Text.h */,
+				11479CD0256D368200AF877E /* Strings_Text.m */,
+				11479CD2256D369100AF877E /* Collections.h */,
+				11479CD3256D369100AF877E /* Collections.m */,
+				11479CD5256D36A500AF877E /* Dates_Times.h */,
+				11479CD6256D36A500AF877E /* Dates_Times.m */,
+				11479CD8256D397300AF877E /* Units_Measurement.h */,
+				11479CD9256D397300AF877E /* Units_Measurement.m */,
+				11479CDB256D39A900AF877E /* DataFormatting.h */,
+				11479CDC256D39A900AF877E /* DataFormatting.m */,
+				11479CDE256D39C800AF877E /* Filters_Sorting.h */,
+				11479CDF256D39C800AF877E /* Filters_Sorting.m */,
 			);
 			path = Fundamentals;
 			sourceTree = "<group>";
@@ -151,6 +213,16 @@
 		1162AB86255F89F700D6D099 /* AppSupport */ = {
 			isa = PBXGroup;
 			children = (
+				11479CE1256D39F600AF877E /* TaskManagement.h */,
+				11479CE2256D39F600AF877E /* TaskManagement.m */,
+				11479CE4256D3A1F00AF877E /* Resources.h */,
+				11479CE5256D3A1F00AF877E /* Resources.m */,
+				11479CE7256D3A2E00AF877E /* Notifications.h */,
+				11479CE8256D3A2E00AF877E /* Notifications.m */,
+				11479CEA256D3A6400AF877E /* Errors_Exceptions.h */,
+				11479CEB256D3A6400AF877E /* Errors_Exceptions.m */,
+				11479CED256D3A7300AF877E /* ScriptingSupport.h */,
+				11479CEE256D3A7300AF877E /* ScriptingSupport.m */,
 			);
 			path = AppSupport;
 			sourceTree = "<group>";
@@ -171,6 +243,8 @@
 		1162AB88255F8A1900D6D099 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				11479CF0256D3B3400AF877E /* URLLoadingSystem.h */,
+				11479CF1256D3B3400AF877E /* URLLoadingSystem.m */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -178,6 +252,12 @@
 		1162AB89255F8A2200D6D099 /* Low-Level Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				11479CF3256D3B8900AF877E /* ObjectRuntime.h */,
+				11479CF4256D3B8900AF877E /* ObjectRuntime.m */,
+				11479CF6256D3B9D00AF877E /* Processes_Threads.h */,
+				11479CF7256D3B9D00AF877E /* Processes_Threads.m */,
+				11479CF9256D3BB200AF877E /* Streams_Sockets_Ports.h */,
+				11479CFA256D3BB200AF877E /* Streams_Sockets_Ports.m */,
 			);
 			path = "Low-Level Utilities";
 			sourceTree = "<group>";
@@ -313,10 +393,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				1162AB92255F8B3200D6D099 /* PreferencesController.m in Sources */,
+				11479CE9256D3A2E00AF877E /* Notifications.m in Sources */,
+				11479CCE256D367200AF877E /* Numbers_Data_BasicValues.m in Sources */,
+				11479CE3256D39F600AF877E /* TaskManagement.m in Sources */,
 				1162AB52255F896600D6D099 /* AppDelegate.m in Sources */,
 				1162AB8F255F8AF600D6D099 /* ArchivesAndSerializationController.m in Sources */,
+				11479CFB256D3BB200AF877E /* Streams_Sockets_Ports.m in Sources */,
+				11479CDA256D397300AF877E /* Units_Measurement.m in Sources */,
+				11479CF8256D3B9D00AF877E /* Processes_Threads.m in Sources */,
+				11479CF2256D3B3400AF877E /* URLLoadingSystem.m in Sources */,
+				11479CDD256D39A900AF877E /* DataFormatting.m in Sources */,
+				11479CE6256D3A1F00AF877E /* Resources.m in Sources */,
+				11479CE0256D39C800AF877E /* Filters_Sorting.m in Sources */,
 				1162AB8C255F8ACC00D6D099 /* FileSystemController.m in Sources */,
+				11479CD7256D36A500AF877E /* Dates_Times.m in Sources */,
+				11479CEF256D3A7300AF877E /* ScriptingSupport.m in Sources */,
+				11479CEC256D3A6400AF877E /* Errors_Exceptions.m in Sources */,
+				11479CD1256D368200AF877E /* Strings_Text.m in Sources */,
+				11479CF5256D3B8900AF877E /* ObjectRuntime.m in Sources */,
 				1162AB63255F896700D6D099 /* main.m in Sources */,
+				11479CD4256D369100AF877E /* Collections.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
