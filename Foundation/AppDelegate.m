@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "PredicateFormatStringSyntex.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +20,9 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
+    PredicateFormatStringSyntex *vc = [PredicateFormatStringSyntex new];
+    self.window.rootViewController = vc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -33,6 +33,11 @@
 		1162AB8C255F8ACC00D6D099 /* FileSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162AB8B255F8ACC00D6D099 /* FileSystemController.m */; };
 		1162AB8F255F8AF600D6D099 /* ArchivesAndSerializationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162AB8E255F8AF600D6D099 /* ArchivesAndSerializationController.m */; };
 		1162AB92255F8B3200D6D099 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162AB91255F8B3200D6D099 /* PreferencesController.m */; };
+		1162FBD92575D94700B678FD /* CreatingPredicates.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162FBD82575D94700B678FD /* CreatingPredicates.m */; };
+		1162FBDC2575D95A00B678FD /* UsingPredicates.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162FBDB2575D95A00B678FD /* UsingPredicates.m */; };
+		1162FBDF2575D97300B678FD /* ComparisonOfNSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162FBDE2575D97300B678FD /* ComparisonOfNSPredicate.m */; };
+		1162FBE22575D98B00B678FD /* PredicateFormatStringSyntex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162FBE12575D98B00B678FD /* PredicateFormatStringSyntex.m */; };
+		1162FBE52575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162FBE42575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +110,16 @@
 		1162AB8E255F8AF600D6D099 /* ArchivesAndSerializationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchivesAndSerializationController.m; sourceTree = "<group>"; };
 		1162AB90255F8B3200D6D099 /* PreferencesController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
 		1162AB91255F8B3200D6D099 /* PreferencesController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		1162FBD72575D94700B678FD /* CreatingPredicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreatingPredicates.h; sourceTree = "<group>"; };
+		1162FBD82575D94700B678FD /* CreatingPredicates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreatingPredicates.m; sourceTree = "<group>"; };
+		1162FBDA2575D95A00B678FD /* UsingPredicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsingPredicates.h; sourceTree = "<group>"; };
+		1162FBDB2575D95A00B678FD /* UsingPredicates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsingPredicates.m; sourceTree = "<group>"; };
+		1162FBDD2575D97300B678FD /* ComparisonOfNSPredicate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComparisonOfNSPredicate.h; sourceTree = "<group>"; };
+		1162FBDE2575D97300B678FD /* ComparisonOfNSPredicate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComparisonOfNSPredicate.m; sourceTree = "<group>"; };
+		1162FBE02575D98B00B678FD /* PredicateFormatStringSyntex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PredicateFormatStringSyntex.h; sourceTree = "<group>"; };
+		1162FBE12575D98B00B678FD /* PredicateFormatStringSyntex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PredicateFormatStringSyntex.m; sourceTree = "<group>"; };
+		1162FBE32575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNFDefinitionOfCocoaPreicates.h; sourceTree = "<group>"; };
+		1162FBE42575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNFDefinitionOfCocoaPreicates.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +170,7 @@
 		1162AB4F255F896600D6D099 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				1162FBD62575D92900B678FD /* PredicateProgramGuide */,
 				1162AB89255F8A2200D6D099 /* Low-Level Utilities */,
 				1162AB88255F8A1900D6D099 /* Networking */,
 				1162AB87255F8A0500D6D099 /* FilesDataPersistence */,
@@ -260,6 +276,23 @@
 				11479CFA256D3BB200AF877E /* Streams_Sockets_Ports.m */,
 			);
 			path = "Low-Level Utilities";
+			sourceTree = "<group>";
+		};
+		1162FBD62575D92900B678FD /* PredicateProgramGuide */ = {
+			isa = PBXGroup;
+			children = (
+				1162FBD72575D94700B678FD /* CreatingPredicates.h */,
+				1162FBD82575D94700B678FD /* CreatingPredicates.m */,
+				1162FBDA2575D95A00B678FD /* UsingPredicates.h */,
+				1162FBDB2575D95A00B678FD /* UsingPredicates.m */,
+				1162FBDD2575D97300B678FD /* ComparisonOfNSPredicate.h */,
+				1162FBDE2575D97300B678FD /* ComparisonOfNSPredicate.m */,
+				1162FBE02575D98B00B678FD /* PredicateFormatStringSyntex.h */,
+				1162FBE12575D98B00B678FD /* PredicateFormatStringSyntex.m */,
+				1162FBE32575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.h */,
+				1162FBE42575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.m */,
+			);
+			path = PredicateProgramGuide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -400,10 +433,15 @@
 				1162AB8F255F8AF600D6D099 /* ArchivesAndSerializationController.m in Sources */,
 				11479CFB256D3BB200AF877E /* Streams_Sockets_Ports.m in Sources */,
 				11479CDA256D397300AF877E /* Units_Measurement.m in Sources */,
+				1162FBD92575D94700B678FD /* CreatingPredicates.m in Sources */,
 				11479CF8256D3B9D00AF877E /* Processes_Threads.m in Sources */,
 				11479CF2256D3B3400AF877E /* URLLoadingSystem.m in Sources */,
 				11479CDD256D39A900AF877E /* DataFormatting.m in Sources */,
+				1162FBDF2575D97300B678FD /* ComparisonOfNSPredicate.m in Sources */,
 				11479CE6256D3A1F00AF877E /* Resources.m in Sources */,
+				1162FBE52575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.m in Sources */,
+				1162FBDC2575D95A00B678FD /* UsingPredicates.m in Sources */,
+				1162FBE22575D98B00B678FD /* PredicateFormatStringSyntex.m in Sources */,
 				11479CE0256D39C800AF877E /* Filters_Sorting.m in Sources */,
 				1162AB8C255F8ACC00D6D099 /* FileSystemController.m in Sources */,
 				11479CD7256D36A500AF877E /* Dates_Times.m in Sources */,
