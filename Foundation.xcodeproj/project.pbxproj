@@ -38,6 +38,7 @@
 		1162FBDF2575D97300B678FD /* ComparisonOfNSPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162FBDE2575D97300B678FD /* ComparisonOfNSPredicate.m */; };
 		1162FBE22575D98B00B678FD /* PredicateFormatStringSyntex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162FBE12575D98B00B678FD /* PredicateFormatStringSyntex.m */; };
 		1162FBE52575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.m in Sources */ = {isa = PBXBuildFile; fileRef = 1162FBE42575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.m */; };
+		1181E4C7257CCC7A0079C79D /* indexpath_df7d08bf-e846-4963-bc2c-d81442fce0e8.gif in Resources */ = {isa = PBXBuildFile; fileRef = 1181E4C6257CCC7A0079C79D /* indexpath_df7d08bf-e846-4963-bc2c-d81442fce0e8.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +121,7 @@
 		1162FBE12575D98B00B678FD /* PredicateFormatStringSyntex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PredicateFormatStringSyntex.m; sourceTree = "<group>"; };
 		1162FBE32575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNFDefinitionOfCocoaPreicates.h; sourceTree = "<group>"; };
 		1162FBE42575D9C000B678FD /* BNFDefinitionOfCocoaPreicates.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNFDefinitionOfCocoaPreicates.m; sourceTree = "<group>"; };
+		1181E4C6257CCC7A0079C79D /* indexpath_df7d08bf-e846-4963-bc2c-d81442fce0e8.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "indexpath_df7d08bf-e846-4963-bc2c-d81442fce0e8.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 				1162AB59255F896600D6D099 /* Main.storyboard */,
 				1162AB5C255F896700D6D099 /* Assets.xcassets */,
 				1162AB5E255F896700D6D099 /* LaunchScreen.storyboard */,
+				1181E4C6257CCC7A0079C79D /* indexpath_df7d08bf-e846-4963-bc2c-d81442fce0e8.gif */,
 				1162AB61255F896700D6D099 /* Info.plist */,
 				1162AB62255F896700D6D099 /* main.m */,
 			);
@@ -398,6 +401,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1181E4C7257CCC7A0079C79D /* indexpath_df7d08bf-e846-4963-bc2c-d81442fce0e8.gif in Resources */,
 				1162AB60255F896700D6D099 /* LaunchScreen.storyboard in Resources */,
 				1162AB5D255F896700D6D099 /* Assets.xcassets in Resources */,
 				1162AB5B255F896600D6D099 /* Main.storyboard in Resources */,
